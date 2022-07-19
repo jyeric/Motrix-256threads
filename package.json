@@ -1,6 +1,6 @@
 {
   "name": "Motrix",
-  "version": "1.6.11",
+  "version": "0.0.0",
   "description": "A full-featured download manager",
   "homepage": "https://motrix.app",
   "author": {
@@ -12,7 +12,7 @@
   "main": "./dist/electron/main.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:agalwood/Motrix.git"
+    "url": "https://github.com/jyeric/Motrix-256threads.git"
   },
   "scripts": {
     "release": "npm run build --publish onTagOrDraft",

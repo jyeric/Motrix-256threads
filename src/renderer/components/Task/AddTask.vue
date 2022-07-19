@@ -52,7 +52,7 @@
               v-model="form.split"
               controls-position="right"
               :min="1"
-              :max="config.engineMaxConnectionPerServer"
+              :max="1024000"
               :label="$t('task.task-split')"
             >
             </el-input-number>

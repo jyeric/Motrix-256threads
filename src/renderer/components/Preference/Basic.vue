@@ -196,7 +196,7 @@
               v-model="form.maxConcurrentDownloads"
               controls-position="right"
               :min="1"
-              :max="10"
+              :max="1000000"
               :label="$t('preferences.max-concurrent-downloads')">
             </el-input-number>
           </el-col>
@@ -206,7 +206,7 @@
               v-model="form.maxConnectionPerServer"
               controls-position="right"
               :min="1"
-              :max="form.engineMaxConnectionPerServer"
+              :max="1024000"
               :label="$t('preferences.max-connection-per-server')">
             </el-input-number>
           </el-col>

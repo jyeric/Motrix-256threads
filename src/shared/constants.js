@@ -158,7 +158,7 @@ export const AUTO_CHECK_UPDATE_INTERVAL = ONE_DAY * 7
 export const NONE_SELECTED_FILES = 'none'
 export const SELECTED_ALL_FILES = 'all'
 
-export const ENGINE_MAX_CONNECTION_PER_SERVER = 64
+export const ENGINE_MAX_CONNECTION_PER_SERVER = 256
 
 export const IP_VERSION = {
   V4: 4,
